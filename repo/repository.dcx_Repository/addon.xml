@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="Backup" name="Backup" version="0.0.1" provider-name="dcx">
+    <extension point="xbmc.addon.repository" name="dcx_Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/dc0x/dcx_Repository/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/dc0x/dcx_Repository/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/dcx/dcx_Repository/master/repo/zips/</datadir>
+        </dir>
+ <dir minversion="19.9.1">           
+            <info compressed="false">https://raw.githubusercontent.com/dc0x/dcx_Repository/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/dc0x/dcx_Repository/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/dcx/dcx_Repository/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>DCX REPO</summary>
+        <description>Back Up</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
